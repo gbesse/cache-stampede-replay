@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cache-stampede-replay"
+version = "0.1.0a1"
+description = "FR: Comparer cache simple, verrou et renouvellement anticipé sur une même trace | EN: Compare plain cache, singleflight and early refresh on one trace | ES: Comparar caché simple, bloqueo y renovación anticipada en una traza"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+cache-stampede-replay = "cache_stampede_replay.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["cache_stampede_replay*"]

@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Comparer cache simple, verrou et renouvellement anticipé sur une même trace', 'en': 'Compare plain cache, singleflight and early refresh on one trace', 'es': 'Comparar caché simple, bloqueo y renovación anticipada en una traza'}

@@ -1,0 +1,32 @@
+{
+  "ttl_ms": 100,
+  "load_ms": 20,
+  "early_refresh_ms": 30,
+  "requests": [
+    {
+      "id": "a",
+      "key": "catalog",
+      "time_ms": 0
+    },
+    {
+      "id": "b",
+      "key": "catalog",
+      "time_ms": 1
+    },
+    {
+      "id": "c",
+      "key": "catalog",
+      "time_ms": 2
+    },
+    {
+      "id": "d",
+      "key": "catalog",
+      "time_ms": 95
+    },
+    {
+      "id": "e",
+      "key": "catalog",
+      "time_ms": 125
+    }
+  ]
+}
